@@ -1,3 +1,59 @@
+/* general config */
 body {
   font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 100px 0;
+}
+
+main div {
+  display: flex;
+  flex-direction: column;
+}
+
+
+main p {
+  font-size: 2rem;
+}
+
+#input-area {
+  width: 300px;
+  height: 100px;
+  margin-bottom: 10px;
+  /* resize: both; */
+}
+
+
+#btn-count {
+  width: 308px;
+  height: 30px;
+
+  color: white;
+  font-weight: bolder;
+
+  border: 1px solid #06365f;
+  border-radius: 3px;
+  background-color: #1c5380;
+  box-shadow: 1px 1px 1px #06365f;
+}
+
+
+#btn-count:hover {
+  background-color: #06365f;
+  border: 1px solid #1c5380;
+  box-shadow: 1px 1px 1px #1c5380;
+
+  transition: all 500ms ease-in-out 0ms;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: white;
 }
